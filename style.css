@@ -1,0 +1,34 @@
+.tweet {
+	width: 40%;
+	margin: 20px 30%;
+	border: 1px solid blue;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+}
+
+.left-side, .right-side {
+	flex: 1 0 0;
+}
+
+.center {
+	flex: 2 0 0;
+}
+
+.profile_pic {
+	height: 50px;
+}
+
+.tweet_pic {
+	width: 30%;
+	height: 70%;
+}
+
+.screen_name {
+	color: gray;
+	font-size: 10px;
+}
+/*
+.float-left {
+	float: left;
+}*/
